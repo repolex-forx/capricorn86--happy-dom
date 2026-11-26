@@ -2,6 +2,7 @@
   "commit_sha": "0d4cdbe7442af49d16b49ddf1acf7cc9684ed318",
   "completed_files": [
     "packages/@happy-dom/global-registrator/test/node/GlobalRegistrator.test.ts",
+    "packages/@happy-dom/server-renderer/test/ServerRendererServer.test.ts",
     "packages/happy-dom/src/html-parser/HTMLParser.ts",
     "packages/happy-dom/src/nodes/html-table-element/HTMLTableElement.ts",
     "packages/happy-dom/test/console/VirtualConsole.test.ts",
@@ -12,6 +13,7 @@
     "packages/happy-dom/test/nodes/html-media-element/TextTrackCue.test.ts",
     "packages/happy-dom/test/nodes/html-script-element/HTMLScriptElement.test.ts",
     "packages/happy-dom/test/nodes/svg-component-transfer-function-element/SVGComponentTransferFunctionElement.test.ts",
+    "packages/happy-dom/test/nodes/svg-fe-convolve-matrix-element/SVGFEConvolveMatrixElement.test.ts",
     "packages/happy-dom/test/nodes/svg-fe-displacement-map-element/SVGFEDisplacementMapElement.test.ts",
     "packages/happy-dom/test/nodes/svg-marker-element/SVGMarkerElement.test.ts",
     "packages/happy-dom/test/range/Range.test.ts",
@@ -26,7 +28,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0d4cdbe7442af49d16b49ddf1acf7cc9684ed318.nq.gz",
     "call_sites": 76014,
     "import_statements": 5351,
-    "call_targets_resolved": 6255,
+    "call_targets_resolved": 6956,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -40,5 +42,5 @@
     "extends_class_denormalized": 329,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1814
+  "elapsed_seconds": 1801
 }
