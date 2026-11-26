@@ -1,0 +1,29 @@
+{
+  "commit_sha": "0d4cdbe7442af49d16b49ddf1acf7cc9684ed318",
+  "completed_files": [
+    "packages/happy-dom/src/html-parser/HTMLParser.ts",
+    "packages/happy-dom/test/nodes/html-form-element/HTMLFormElement.test.ts",
+    "packages/happy-dom/test/range/Range.test.ts"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/capricorn86/happy-dom/lsp/0d4cdbe7442af49d16b49ddf1acf7cc9684ed318",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0d4cdbe7442af49d16b49ddf1acf7cc9684ed318.nq.gz",
+    "call_sites": 76014,
+    "import_statements": 5351,
+    "call_targets_resolved": 1176,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 366,
+    "implements_clauses": 37,
+    "import_modules_denormalized": 5351,
+    "import_symbols_denormalized": 0,
+    "extends_class_denormalized": 329,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1812
+}
