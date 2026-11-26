@@ -1,0 +1,22 @@
+[2026-11-26T09:47:31Z] === ENRICH ITERATION 7 START | repo=capricorn86/happy-dom sha=0d4cdbe7 ===
+[2026-11-26T09:47:31Z] [iter=7] PHASE START: enrich repo=capricorn86/happy-dom sha=0d4cdbe7 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/0d4cdbe7-enrich-iter-007.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/0d4cdbe7442af49d16b49ddf1acf7cc9684ed318.nq.gz
+[2026-11-26T09:47:49Z] [iter=7] Step 1: Loading AST into disk-backed store mem_mb=83 MB
+[2026-11-26T09:49:05Z] [iter=7] AST store loaded triples=6838246 load_secs=73 mem_mb=1018 MB
+[2026-11-26T09:49:05Z] [iter=7] Step 2: Finding LSP targets mem_mb=1018 MB
+[2026-11-26T09:49:23Z] [iter=7] LSP targets found call_sites=76014 imports=5351 extends=366 implements=37 secs=18
+[2026-11-26T09:49:26Z] [iter=7] Loaded checkpoint partial graph triples=52521
+[2026-11-26T09:49:26Z] [iter=7] Primed enclosing-def cache from persisted triples entries=289
+[2026-11-26T09:49:37Z] [iter=7] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1018 MB
+[2026-11-26T09:50:23Z] [iter=7] Position index built positions=441467 nodes_with_types=532674 secs=46 mem_mb=1249 MB
+[2026-11-26T09:50:23Z] [iter=7] Step 3: Starting LSP resolution mem_mb=1249 MB already_completed_types=[] already_completed_files=13
+[2026-11-26T09:50:23Z] [iter=7] Resolving target type target_type=call_site count=76014
+[2026-11-26T09:50:23Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=0 resolved=0 errors=0 current=packages/happy-dom/test/console/VirtualConsole.test.ts
+[2026-11-26T09:57:57Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=10.4 files_done=1 resolved=176 errors=0 current=packages/happy-dom/test/fetch/Headers.test.ts
+[2026-11-26T10:03:34Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=16.0 files_done=2 resolved=308 errors=0 current=packages/happy-dom/test/nodes/svg-fe-displacement-map-element/SVGFEDisplacementMapElement.test.ts
+[2026-11-26T10:11:05Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=23.6 files_done=3 resolved=488 errors=0 current=packages/happy-dom/src/nodes/html-table-element/HTMLTableElement.ts
+[2026-11-26T10:13:06Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=25.6 files_done=4 resolved=531 errors=0 current=packages/happy-dom/test/nodes/html-media-element/TextTrackCue.test.ts
+[2026-11-26T10:14:32Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=27.0 files_done=5 resolved=565 errors=0 current=packages/happy-dom/test/nodes/svg-fe-convolve-matrix-element/SVGFEConvolveMatrixElement.test.ts
+[2026-11-26T10:17:46Z] [iter=7] CHECKPOINT TRIGGERED elapsed_min=30.2 files_completed=18 new_files_this_iter=5 mem_mb=1253 MB
+[2026-11-26T10:17:46Z] [iter=7] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/0d4cdbe7442af49d16b49ddf1acf7cc9684ed318.nq.gz triples=57122
+[2026-11-26T10:17:46Z] [iter=7] Checkpoint written, exiting with code 7
+[2026-11-26T10:17:46Z] [iter=7] PHASE END: enrich (checkpointed) elapsed_s=1814 elapsed_min=30.2 files_completed=18
