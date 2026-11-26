@@ -1,17 +1,18 @@
-[2026-11-26T07:07:32Z] === ENRICH ITERATION 3 START | repo=capricorn86/happy-dom sha=0d4cdbe7 ===
-[2026-11-26T07:07:32Z] [iter=3] PHASE START: enrich repo=capricorn86/happy-dom sha=0d4cdbe7 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/0d4cdbe7-enrich-iter-003.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/0d4cdbe7442af49d16b49ddf1acf7cc9684ed318.nq.gz
-[2026-11-26T07:07:49Z] [iter=3] Step 1: Loading AST into disk-backed store mem_mb=83 MB
-[2026-11-26T07:09:29Z] [iter=3] AST store loaded triples=6838246 load_secs=98 mem_mb=1021 MB
-[2026-11-26T07:09:29Z] [iter=3] Step 2: Finding LSP targets mem_mb=1021 MB
-[2026-11-26T07:09:43Z] [iter=3] LSP targets found call_sites=76014 imports=5351 extends=366 implements=37 secs=14
-[2026-11-26T07:09:44Z] [iter=3] Loaded checkpoint partial graph triples=26264
-[2026-11-26T07:09:44Z] [iter=3] Primed enclosing-def cache from persisted triples entries=158
-[2026-11-26T07:09:53Z] [iter=3] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1021 MB
-[2026-11-26T07:10:23Z] [iter=3] Position index built positions=441467 nodes_with_types=532674 secs=30 mem_mb=1326 MB
-[2026-11-26T07:10:23Z] [iter=3] Step 3: Starting LSP resolution mem_mb=1326 MB already_completed_types=[] already_completed_files=4
-[2026-11-26T07:10:23Z] [iter=3] Resolving target type target_type=call_site count=76014
-[2026-11-26T07:10:26Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=0 resolved=0 errors=0 current=packages/happy-dom/test/nodes/element/Element.test.ts
-[2026-11-26T07:37:44Z] [iter=3] CHECKPOINT TRIGGERED elapsed_min=30.2 files_completed=4 new_files_this_iter=0 mem_mb=1330 MB
-[2026-11-26T07:37:44Z] [iter=3] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/0d4cdbe7442af49d16b49ddf1acf7cc9684ed318.nq.gz triples=31690
-[2026-11-26T07:37:44Z] [iter=3] Checkpoint written, exiting with code 7
-[2026-11-26T07:37:44Z] [iter=3] PHASE END: enrich (checkpointed) elapsed_s=1812 elapsed_min=30.2 files_completed=4
+[2026-11-26T07:38:44Z] === ENRICH ITERATION 3 START | repo=capricorn86/happy-dom sha=0d4cdbe7 ===
+[2026-11-26T07:38:44Z] [iter=3] PHASE START: enrich repo=capricorn86/happy-dom sha=0d4cdbe7 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/0d4cdbe7-enrich-iter-003.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/0d4cdbe7442af49d16b49ddf1acf7cc9684ed318.nq.gz
+[2026-11-26T07:38:59Z] [iter=3] Step 1: Loading AST into disk-backed store mem_mb=84 MB
+[2026-11-26T07:40:05Z] [iter=3] AST store loaded triples=6838246 load_secs=65 mem_mb=1030 MB
+[2026-11-26T07:40:05Z] [iter=3] Step 2: Finding LSP targets mem_mb=1030 MB
+[2026-11-26T07:40:17Z] [iter=3] LSP targets found call_sites=76014 imports=5351 extends=366 implements=37 secs=12
+[2026-11-26T07:40:18Z] [iter=3] Loaded checkpoint partial graph triples=26264
+[2026-11-26T07:40:18Z] [iter=3] Primed enclosing-def cache from persisted triples entries=158
+[2026-11-26T07:40:26Z] [iter=3] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1030 MB
+[2026-11-26T07:40:53Z] [iter=3] Position index built positions=441467 nodes_with_types=532674 secs=27 mem_mb=1336 MB
+[2026-11-26T07:40:53Z] [iter=3] Step 3: Starting LSP resolution mem_mb=1336 MB already_completed_types=[] already_completed_files=4
+[2026-11-26T07:40:53Z] [iter=3] Resolving target type target_type=call_site count=76014
+[2026-11-26T07:40:56Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=2.2 files_done=0 resolved=0 errors=0 current=packages/happy-dom/test/nodes/element/Element.test.ts
+[2026-11-26T08:05:19Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=26.6 files_done=1 resolved=932 errors=0 current=packages/happy-dom/test/svg/SVGTransform.test.ts
+[2026-11-26T08:08:47Z] [iter=3] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=5 new_files_this_iter=1 mem_mb=1343 MB
+[2026-11-26T08:08:47Z] [iter=3] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/0d4cdbe7442af49d16b49ddf1acf7cc9684ed318.nq.gz triples=33627
+[2026-11-26T08:08:47Z] [iter=3] Checkpoint written, exiting with code 7
+[2026-11-26T08:08:47Z] [iter=3] PHASE END: enrich (checkpointed) elapsed_s=1802 elapsed_min=30.0 files_completed=5
